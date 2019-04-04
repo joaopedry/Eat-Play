@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+html
+{
+	height:100%;
+}
+body
+{
+	height:100%;
+	font-family: arial, sans-serif;
+	margin:0px;
+	background:#eee;
+}
+aside
+{
+	height:100%;
+	background:#fff;
+	width:25%;
+	padding:50px 0px;
+	border:solid 1px #ddd;
+	box-sizing: border-box;
+	float:left;
+}
+header
+{
+	background:#fff;
+	border-bottom:1px solid #ddd;
+	padding:15px;
+}
+ul
+{
+	list-style:none;
+	padding:0px;
+}
+
+.menu ul > li
+{
+	padding: 15px;
+	border-bottom: 1px solid #eee;
+}
+.menu ul > li > a
+{
+	text-decoration:none;
+	color:#444;
+	font-size:12px;
+}
+
+.menu ul > li:hover
+{
+	background:#eee;
+}
+
+.menu ul > li:hover > a
+{
+	color:#3cb878;
+}
+
+.conteudo
+{
+	float:right;
+	width:75%;
+}
+
+.titulo
+{
+	padding:10px;
+	background: #3cb878;
+	margin-top:0px;
+	color: #fff;
+}
+
+table
+{
+	width:85%;
+	background:#fff;
+	margin-left:2%;
+	padding:10px;
+}
+
+tr
+{
+	border-bottom: 1px solid #ddd;
+}
+
+th
+{
+	color:#000;
+	text-align:left;
+	padding-bottom:25px;
+}
+
+td
+{
+color:#444;
+padding:10px 15px;
+border-top:1px solid #ddd;
+}
+
+.logar
+{
+	width:25%; 
+	margin: 5% auto;
+	border:solid 1px #ddd;
+	border-radius:5px;
+	padding:15px;
+}
+
+.logar h2 
+{
+	text-align:center;
+}
+.logar input
+{
+	width:100%;
+	margin: 10px 0px;
+	border-radius:200px;
+	border:solid 1px #ddd;
+	height:35px;
+}
